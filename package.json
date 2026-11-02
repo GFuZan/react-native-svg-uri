@@ -4,7 +4,8 @@
   "description": "Render an SVG Image from an URL",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
+    "test:rect": "node test/rect.cjs"
   },
   "repository": {
     "type": "git",
